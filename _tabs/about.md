@@ -4,5 +4,12 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# 1. 소개
+안녕하세요! 개발자를 목표로 컴퓨터공학을 공부하고 있는 NanSu입니다. 사람들에게 즐거움을 줄 수 있는 것을 만들고 싶습니다.
+
+# 2. 학력
+1. 2018 ~ 2019 :&nbsp; 학점은행제 컴퓨터공학과 학사
+2. 2021 ~ now&nbsp; :&nbsp; 단국대학교 응용컴퓨터공학과
+
+# 3. 방향
+개발자로서 여정을 게임 개발자로 시작할 것입니다. 클라이언트와 서버 모두 흥미가 있고 다양한 분야의 게임 개발에 도전할 것입니다. 내년 목표는 자체 엔진 게임, 상용 엔진 게임 개발과 게임 개발 인턴입니다.
