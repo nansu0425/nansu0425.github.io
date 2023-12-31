@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: NanSu Tech Blog # the main title
 
-tagline: 프로젝트 경험, 문제 해결 과정, 학습 정리 등 # it will display as the sub-title
+tagline: 프로젝트, 문제 해결, 연구 등의 기록 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  프로젝트 경험, 문제 해결 과정, 학습 정리 등
+  프로젝트, 문제 해결, 연구 등의 기록
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
