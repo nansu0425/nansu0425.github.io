@@ -67,3 +67,8 @@ theme = "PaperMod"
     codeFences = true
   [markup.goldmark.renderer]
     unsafe = false
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [['$$', '$$'], ['\[', '\]']]
+      inline = [['$', '$'], ['\(', '\)']]
