@@ -1,0 +1,68 @@
+baseURL = "https://nansu0425.github.io/"
+languageCode = "en-us"
+title = "nansu0425's Blog"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  description = "A personal blog"
+  author = "nansu0425"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Welcome"
+    Content = "A personal blog about software development"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/nansu0425"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    codeFences = true
+  [markup.goldmark.renderer]
+    unsafe = false

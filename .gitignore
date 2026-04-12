@@ -1,26 +1,16 @@
-# Bundler cache
-.bundle
-vendor
-Gemfile.lock
+# Hugo build output
+public/
+resources/_gen/
 
-# Jekyll cache
-.jekyll-cache
-.jekyll-metadata
-_site
-
-# RubyGems
-*.gem
-
-# NPM dependencies
-node_modules
-package-lock.json
+# Hugo cache
+.hugo_build.lock
 
 # IDE configurations
-.idea
-.vscode
+.idea/
+.vscode/
 !.vscode/settings.json
 !.vscode/extensions.json
 
-# Misc
-_sass/dist
-assets/js/dist
+# OS files
+.DS_Store
+Thumbs.db
