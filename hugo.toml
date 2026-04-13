@@ -8,7 +8,8 @@ enableRobotsTXT = true
 
 [params]
   env = "production"
-  description = "A personal blog"
+  description = "게임 개발, 그래픽스, C++, 선형대수 등 소프트웨어 개발 학습 기록"
+  keywords = ["게임 개발", "그래픽스", "C++", "선형대수", "알고리즘", "수학", "소프트웨어 개발"]
   author = "nansu0425"
   defaultTheme = "auto"
   ShowReadingTime = true

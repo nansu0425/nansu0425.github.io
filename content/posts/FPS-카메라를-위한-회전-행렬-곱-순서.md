@@ -4,6 +4,7 @@ date: 2026-04-13
 tags: ["graphics", "math", "linear-algebra", "camera"]
 categories: ["Graphics"]
 summary: "World Matrix의 회전 부분을 Rz * Rx * Ry로 구성하는 이유를 row-vector 규약에서 수식으로 유도한다"
+description: "FPS 카메라의 World Matrix 회전 순서를 Rz * Rx * Ry로 구성하는 이유를 row-vector 규약에서 오일러 각과 회전 행렬 곱으로 유도한다. DirectX 스타일 게임 그래픽스 수학."
 math: true
 ---
 
