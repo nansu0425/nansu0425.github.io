@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/session-start.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)",
+      "Bash(git add content/posts/*)",
+      "Bash(git add CLAUDE.md)",
+      "Bash(git add .claude/*)",
+      "Bash(git add README.md)",
+      "Bash(git commit:*)",
+      "Bash(git push origin main:*)",
+      "Bash(git submodule:*)",
+      "Bash(ls:*)",
+      "Bash(find content:*)",
+      "Bash(find layouts:*)",
+      "Bash(cat content/posts/*)"
+    ]
+  }
+}
